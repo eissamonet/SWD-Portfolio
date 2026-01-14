@@ -1,7 +1,13 @@
+import { Navbar } from "./layout/Navbar";
 
 
 function App() {
-  return <></>;
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+
+    </div>
+  );
 }
 
 export default App;
