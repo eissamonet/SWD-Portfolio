@@ -1,3 +1,10 @@
+const navLinks = [
+    {href: "about", label: "About"},
+    {href: "projects", label: "Projects"},
+    {href: "experience", label: "Experience"},
+    {href: "testimonials", label: "Testimonials"},
+];
+
 
 
 export const Navbar = () => {
@@ -7,7 +14,14 @@ export const Navbar = () => {
         <a>
           EP<span>.</span>
         </a>
+
+        {/* desktop nav */}
+        <div>
+          <div>
+
+          </div>
+        </div>
       </nav>
     </header>
- );
+  );
 };
