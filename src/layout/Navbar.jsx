@@ -1,3 +1,5 @@
+import { Button } from "../components/Button";
+
 const navLinks = [
     {href: "about", label: "About"},
     {href: "projects", label: "Projects"},
@@ -22,6 +24,11 @@ export const Navbar = () => {
               <a href={link.href} key={index} className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">{link.label}</a>
             ))}
           </div>
+        </div>
+
+        {/* cta button */}
+        <div>
+          <Button>Contact Me</Button>
         </div>
       </nav>
     </header>
