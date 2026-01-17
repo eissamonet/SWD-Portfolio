@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/purity */
+/* eslint-disable no-unused-vars */
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -23,6 +25,21 @@ export const Hero = () => {
             animationDelay: `${Math.random() * 5}s`,
            }} />
         ))}
+      </div>
+
+      {/* content */}
+      <div>
+        <div>
+          {/* left col - text content */}
+          <div>
+            <div className="animate-fade-in">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+                <span className="w-2 h-2 bg-primary rounded-full"/>Software Developer - Frontend
+              </span>
+            </div>
+          </div>
+          {/* right col - profile image */}
+        </div>
       </div>
     </section>
   );
