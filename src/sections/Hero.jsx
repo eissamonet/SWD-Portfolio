@@ -13,14 +13,14 @@ export const Hero = () => {
 
       {/* green floating dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(45)].map((_, i) => (
            <div className="absolute w-1.5 h-1.5 rounded-full opacity-60"
            style={{
             backgroundColor: "#20B2A6",
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
             animation: `slow-drift ${15 + Math.random() * 30}s ease-in-out infinite`,
-
+            animationDelay: `${Math.random() * 5}s`,
            }} />
         ))}
       </div>
