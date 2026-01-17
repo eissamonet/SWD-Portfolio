@@ -52,11 +52,13 @@ export const Navbar = () => {
             <a
               href={link.href}
               key={index}
-              className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+              className="text-lg text-muted-foreground hover:text-foreground py-2"
             >
               {link.label}
             </a>
           ))}
+
+          <Button size="sm">Contact Me</Button>
         </div>
       </div>
     </header>
