@@ -28,13 +28,13 @@ export const Hero = () => {
       </div>
 
       {/* content */}
-      <div>
-        <div>
+      <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* left col - text content */}
           <div>
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                <span className="w-2 h-2 bg-primary rounded-full"/>Software Developer - Frontend
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>Software Developer - Frontend
               </span>
             </div>
           </div>
