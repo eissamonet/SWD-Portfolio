@@ -1,5 +1,9 @@
 /* eslint-disable react-hooks/purity */
 /* eslint-disable no-unused-vars */
+
+import { Button } from "@/components/Button";
+import { ArrowRight } from "lucide-react";
+
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -40,14 +44,20 @@ export const Hero = () => {
 
             {/* headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in"> Crafting <span className="text-primary glow-text">digital</span>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100"> Crafting <span className="text-primary glow-text">digital</span>
               <br />
               experience with <br /> <span className="font-serif italic font-normal text-white">
                 precision.
               </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in">Hi, I'm Eissa - a software developer with a primary focus in frontend. I build performant web applications that users love.
+              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">Hi, I'm Eissa - a software developer with a primary focus in frontend. I build performant web applications that users love.
               </p>
+            </div>
+
+            {/* cta's */}
+            <div>
+              <Button size="lg">Contact Me <ArrowRight className="w-5 h-5"/>
+              </Button>
             </div>
           </div>
           {/* right col - profile image */}
