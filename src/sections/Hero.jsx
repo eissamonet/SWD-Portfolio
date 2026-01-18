@@ -58,6 +58,25 @@ export const Hero = () => {
             <div>
               <Button size="lg">Contact Me <ArrowRight className="w-5 h-5"/>
               </Button>
+              <button>
+                {/* anitmated SVG border*/}
+                <svg
+                    className="absolute left-0 top-0 w-full h-full pointer-events-auto"
+                    viewBox="0 0 200 60"
+                    preserveAspectRatio="none"
+                    style={{ overflow: "visible"}}>
+                    <path
+                     d="M 30, 1 A 29,29 0 0 0 1,30 L 1,30 A 29,29 0 0 0 30,59 L"
+                     fill="none"
+                     stroke="var(--color-primary)"
+                     strokeWidth="2"
+                     strokeDasharray="400 550"
+                     strokeDashoffset="400"
+                     strokeLinecap="round"
+                     strokeLinejoin="round"
+                     className="download-cv-path" />
+                </svg>
+              </button>
             </div>
           </div>
           {/* right col - profile image */}
