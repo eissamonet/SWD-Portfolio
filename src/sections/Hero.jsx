@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 
 import { Button } from "@/components/Button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Download, Github, Instagram, Linkedin, } from "lucide-react";
 import { AnimatedBoarderButton } from "../components/AnitmatedBorderButton";
 
 export const Hero = () => {
@@ -60,6 +60,19 @@ export const Hero = () => {
               <Button size="lg">Contact Me <ArrowRight className="w-5 h-5"/>
               </Button>
               <AnimatedBoarderButton />
+            </div>
+
+
+            {/* social links */}
+            <div>
+              <span>Follow:</span>
+              {[
+                { icon: Github, href: "#"},
+                { icon: Linkedin, href: "#"},
+                { icon: Instagram, href: "#"},
+              ].map((social, index) => (
+                <a>{<social.icon />}</a>
+              ))}
             </div>
           </div>
           {/* right col - profile image */}
