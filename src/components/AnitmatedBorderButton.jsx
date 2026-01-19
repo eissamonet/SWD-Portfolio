@@ -21,11 +21,11 @@ export const AnimatedBoarderButton = () => {
           strokeDashoffset="400"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="download-cv-path"
+          className="animated-border-path"
         />
       </svg>
-      <span>
-        <Download />
+      <span className="relative z-10 flex items-center justify-center gap-2">
+        <Download className="w-5 h-5" />
         Download Resume
       </span>
     </button>
