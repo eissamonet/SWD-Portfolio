@@ -64,14 +64,14 @@ export const Hero = () => {
 
 
             {/* social links */}
-            <div>
-              <span>Follow:</span>
+            <div className="flex items-center gap-4 animate-fade-in animation-delay-400 mt-10">
+              <span className="text-sm text-muted-foreground">Follow Me:</span>
               {[
                 { icon: Github, href: "https://github.com/eissamonet"},
                 { icon: Linkedin, href: "https://www.linkedin.com/in/eissamonet/"},
                 { icon: Instagram, href: "https://www.instagram.com/eissa.monet/"},
               ].map((social, index) => (
-                <a key={index} href={social.href}>{<social.icon />}</a>
+                <a key={index} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">{<social.icon className="w-5 h-5" />}</a>
               ))}
             </div>
           </div>
