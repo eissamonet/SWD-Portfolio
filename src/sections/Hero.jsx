@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 
 import { Button } from "@/components/Button";
-import { ArrowRight, Download, Github, Instagram, Linkedin, } from "lucide-react";
+import { ArrowRight, Github, Instagram, Linkedin, } from "lucide-react";
 import { AnimatedBoarderButton } from "../components/AnitmatedBorderButton";
 
 export const Hero = () => {
@@ -67,11 +67,11 @@ export const Hero = () => {
             <div>
               <span>Follow:</span>
               {[
-                { icon: Github, href: "#"},
-                { icon: Linkedin, href: "#"},
-                { icon: Instagram, href: "#"},
+                { icon: Github, href: "https://github.com/eissamonet"},
+                { icon: Linkedin, href: "https://www.linkedin.com/in/eissamonet/"},
+                { icon: Instagram, href: "https://www.instagram.com/eissa.monet/"},
               ].map((social, index) => (
-                <a>{<social.icon />}</a>
+                <a key={index} href={social.href}>{<social.icon />}</a>
               ))}
             </div>
           </div>
