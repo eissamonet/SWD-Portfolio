@@ -56,7 +56,7 @@ export const Hero = () => {
             </div>
 
             {/* cta's */}
-            <div>
+            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300 mt-8">
               <Button size="lg">Contact Me <ArrowRight className="w-5 h-5"/>
               </Button>
               <AnimatedBoarderButton />
