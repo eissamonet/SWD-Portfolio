@@ -6,16 +6,16 @@ import { ArrowRight, Github, Instagram, Linkedin } from "lucide-react";
 import { AnimatedBoarderButton } from "../components/AnitmatedBorderButton";
 
 const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Tailwind CSS",
-    "React",
-    "Node.js",
-    "Vercel",
-    "Git",
-    "GitHub",
-    "Figma",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Tailwind CSS",
+  "React",
+  "Node.js",
+  "Vercel",
+  "Git",
+  "GitHub",
+  "Figma",
 ];
 
 export const Hero = () => {
@@ -138,16 +138,17 @@ export const Hero = () => {
         </div>
 
         {/* skills list */}
-        <div>
-          <p>Technologies I work with</p>
-          <div>
-            <div>
-               <div>
-                {[...skills, ...skills].map((skills,index) => (
-                  <div key={index}>
-                    <span>{skills}</span>
-                  </div>
-            ))}</div>
+        <div className="mt-20 animate-fade-in animation-delay-600">
+          <p className="text-sm text-muted-foreground mb-6 text-center">
+            Technologies I work with
+          </p>
+          <div className="relative overflow-hidden">
+            <div className="flex animate-marquee">
+              {[...skills, ...skills].map((skill, index) => (
+                <div key={index} className="flex-shrink-0 px-8 py-4">
+                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
