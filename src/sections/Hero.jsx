@@ -76,6 +76,14 @@ export const Hero = () => {
             </div>
           </div>
           {/* right col - profile image */}
+          <div>
+            {/* profile image  */}
+            <div>
+               <div>
+                <img src="/profilepic.jpeg" alt="Eissa Purnell" className="w-full aspect-[4/5] object-cover rounded-2xl "/>
+               </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
