@@ -64,12 +64,12 @@ export const About = () => {
           {/* right col hightlights */}
           <div className="grid gap-6 sm:grid-cols-2">
             {highlights.map((item, index) => (
-              <div>
-                <div>
-                  <item.icon />
+              <div key={index} className="glass p-6 rounded-2xl animate-fade-in" style={{ animationDelay: `${(index + 1) * 100}ms`}}>
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 hover:bg-primary/20">
+                  <item.icon className="text-primary w-6 h-6" />
                 </div>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
           </div>
