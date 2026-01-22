@@ -62,7 +62,15 @@ export const About = () => {
 
 
           {/* right col hightlights */}
-
+          <div className="grid gap-6 sm:grid-cols-2">
+            {highlights.map((item, index) => (
+              <div>
+                <div>
+                  <item.icon />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
