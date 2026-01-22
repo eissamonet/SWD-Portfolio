@@ -38,8 +38,20 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animate-delay-100 text-secondary-foreground">
-              Building the future, <span> one line of code at a time.</span>
+              Building the future, <span className="font-serif italic font-normal text-white"> one line of code at a time.</span>
             </h2>
+
+            <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+              <p>
+                I'm a passionate software developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in both front-end and back-end technologies, I thrive on turning ideas into reality through code.
+              </p>
+              <p>
+                My journey in software development has equipped me with a diverse skill set, allowing me to adapt to various project requirements and collaborate effectively with cross-functional teams. I believe in continuous learning and staying updated with the latest industry trends to deliver cutting-edge solutions.
+              </p>
+              <p>
+                In my spare time , I enjoy contributing to open-source projects, exploring new programming languages, and sharing knowledge with the developer community.
+              </p>
+            </div>
           </div>
         </div>
       </div>
