@@ -59,6 +59,10 @@ export const About = () => {
               </p>
             </div>
           </div>
+
+
+          {/* right col hightlights */}
+
         </div>
       </div>
     </section>
