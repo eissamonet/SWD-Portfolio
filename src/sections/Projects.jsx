@@ -44,8 +44,11 @@ export const Projects = () => {
         <div className="container mx-auto px-6 relative z-10">
           {/* section header */}
           <div className="text-center mx-auto max-w-3xl mb-16">
-            <span className="text-secondary-foreground text-sm font-medium tracking-wider animation-fade-in uppercase">Featured Work</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100"> Projects that<span> make an impact.</span>
+            <span className="text-secondary-foreground text-sm font-medium tracking-wider animate-fade-in uppercase">Featured Work</span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground"> Projects that
+               <span className="font-serif italic font-normal text-white">
+                {' '}
+                make an impact.</span>
             </h2>
           </div>
         </div>
