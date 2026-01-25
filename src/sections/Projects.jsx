@@ -55,12 +55,16 @@ export const Projects = () => {
           </div>
 
           {/* projects grid */}
-          <div className="grid md:grid-cols gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {projects.map((projects, index) => (
-              <div>
+              <div
+                key={index}
+                className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+                style={{ animationDelay: `${(index + 1) * 100}ms`}}
+                >
                 {/* project card */}
                 <div>
-                  <img src={projects.image} alt={projects.title} />
+                  <img src={projects.image} alt={projects.title} className="w-full h-full object-cover transition-transform duration-700" />
                 </div>
               </div>
             ))}
