@@ -50,6 +50,20 @@ export const Projects = () => {
                 {' '}
                 make an impact.</span>
             </h2>
+            <p className="text-muted-foreground animate-fade-in animation-delay-200"> A selection of my recent projects that showcase my skills and passion for creating impactful digital experiences.
+            </p>
+          </div>
+
+          {/* projects grid */}
+          <div className="grid md:grid-cols gap-8">
+            {projects.map((projects, index) => (
+              <div>
+                {/* project card */}
+                <div>
+                  <img src={projects.image} alt={projects.title} />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
      </section>
