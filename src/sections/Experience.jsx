@@ -31,6 +31,15 @@ export const Experience = () => {
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Experince that <span className="font-serif italic font-normal text-white"> {""} speaks volumes. </span>
           </h2>
+
+          <p className="text-muted-foreground animate-fade-in animation-delay-200">
+            Throughout my career, I've had the privilege of working with diverse teams and projects that have honed my skills and expanded my expertise. Each experience has contributed to my growth as a developer, allowing me to tackle challenges with confidence and creativity.
+          </p>
+        </div>
+
+        {/* timeline */}
+        <div>
+
         </div>
       </div>
     </section>
