@@ -48,12 +48,12 @@ export const Experience = () => {
               className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
               style={{ animationDelay: `${(index + 1) * 100}ms`}}
               >
-                {/* timeline item container */}
-                <div></div>
+                {/* timeline dot */}
+                <div className="absolute"></div>
 
                 {/* content */}
                 <div className={`pl-8 md:pl-0 ${index % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"} `}>
-                  <div className={`glass p-6 rounded-2xl border border-primary/30`}>
+                  <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
                     <span>{exp.period}</span>
                     <h3>{exp.role}</h3>
                     <p>{exp.company}</p>
