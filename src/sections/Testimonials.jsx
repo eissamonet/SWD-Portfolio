@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 
 const testimonials = [
@@ -55,9 +55,27 @@ export const Testimonials = () => {
                     {/*<img src={testimonials[0].image} alt={testimonials[0].author} className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20" /> */}
                     <div className="flex items-center gap-4">
                       <div className="font-semibold">{testimonials[0].author}</div>
-                      <div className="text-sm text-muted-foreground">{testimonials[0].role}</div>
+                      <div className="text-sm text-muted-foreground">{testimonials[0].role}
+                      </div>
                     </div>
                    </div>
+                </div>
+
+                {/* testimonilas navigation */}
+                <div className="flex items-center justify-center gap-4 mt-8">
+                  <button className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all">
+                    <ChevronLeft />
+                  </button>
+
+                  <div>
+                    {testimonials.map((_, index) => (
+                      <button/>
+                    ))}
+                  </div>
+
+                  <button>
+                    <ChevronRight />
+                  </button>
                 </div>
               </div>
             </div>
