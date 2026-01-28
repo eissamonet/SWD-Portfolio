@@ -1,3 +1,6 @@
+import { Quote } from "lucide-react";
+
+
 const testimonials = [
     {
         quote: "Working with this developer was an absolute pleasure. Their attention to detail and problem-solving skills are exceptional.",
@@ -39,6 +42,23 @@ export const Testimonials = () => {
             <div>
               <div>
                 {/* main testimonilal */}
+                <div>
+                   <div>
+                    <Quote />
+                   </div>
+
+                   <blockquote>
+                    "{testimonials[0].quote}"
+                   </blockquote>
+
+                   <div>
+                    {/*<img src={testimonials[0].image} alt={testimonials[0].author} /> */}
+                    <div>
+                      <div>{testimonials[0].author}</div>
+                      <div>{testimonials[0].role}</div>
+                    </div>
+                   </div>
+                </div>
               </div>
             </div>
          </div>
