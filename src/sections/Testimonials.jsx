@@ -39,11 +39,11 @@ export const Testimonials = () => {
             </div>
 
             {/* testimonials carosel */}
-            <div>
-              <div>
+            <div className="max-w-4xl mx-auto">
+              <div className="relative">
                 {/* main testimonilal */}
-                <div>
-                   <div>
+                <div className="glass p-8 rounded-3xl md:p-12 glow-border animate-fade-in animate-delay-200">
+                   <div className="absolute -top-4 left-8 w-12 h-12 rounded-full bg-primary flex items-center justify-center">
                     <Quote />
                    </div>
 
