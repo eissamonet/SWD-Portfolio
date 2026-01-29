@@ -1,17 +1,20 @@
  const contactInfo = [
-    {  icon: Mail,
+    {
+       icon: Mail,
        label: "Email",
-       value: "pedro@gmail.com",
-       href: "mailto:pedro@gmail.com",
+       value: "eissa@gmail.com",
+       href: "mailto:eissa@gmail.com",
     },
-    {  icon: Phone,
+    {
+       icon: Phone,
        label: "Phone",
-       value: "(555) 123-4567",
-       href: "tel:+15551234567",
+       value: "(614) 940-1067",
+       href: "tel:+16149401067",
     },
-    {  icon: MapPin,
+    {
+       icon: MapPin,
        label: "Location",
-       value: "Los Angeles, CA",
+       value: "Chicago, IL",
        href: "#"
     }
  ]
