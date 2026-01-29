@@ -69,11 +69,12 @@ export const Testimonials = () => {
 
                   <div>
                     {testimonials.map((_, index) => (
-                      <button/>
+                      <button key={index} className={`w-2 h-2 transition-all duration-300 ${index === 0 ? "w-8 bg-primary" : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
+                      }`} />
                     ))}
                   </div>
 
-                  <button>
+                  <button className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all">
                     <ChevronRight />
                   </button>
                 </div>
