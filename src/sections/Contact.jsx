@@ -50,23 +50,31 @@ export const Contact = () => {
                 <form className="space-y-6">
                    <div>
                       <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                      <input id="name"
+                      <input
+                      id="name"
                       type="text"
+                      required
+                      placeholder="Your Name"
                       className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" />
                    </div>
 
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-                      <input id="email"
+                      <label
+                      htmlFor="email"
                       type="email"
+                      className="block text-sm font-medium mb-2">Email</label>
+                      <input
+                      required
+                      placeholder="Your Email"
                       className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" />
                    </div>
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-                      <input id="message"
-                      type="text"
-                      className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" />
+                      <textarea
+                      required
+                      placeholder="Your Message"
+                      className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none" />
                    </div>
                 </form>
               </div>
