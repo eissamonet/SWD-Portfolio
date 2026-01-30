@@ -47,19 +47,19 @@ export const Contact = () => {
 
             <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
               <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animatation-delay-300">
-                <form>
+                <form className="space-y-6">
                    <div>
-                      <label>Name</label>
+                      <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
                       <input />
                    </div>
 
                     <div>
-                      <label>Email</label>
+                      <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
                       <input />
                    </div>
 
                     <div>
-                      <label>Message</label>
+                      <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
                       <input />
                    </div>
                 </form>
