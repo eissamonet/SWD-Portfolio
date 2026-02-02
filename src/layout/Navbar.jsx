@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { Button } from "../components/Button";
 import { Menu, X } from "lucide-react";
 
-const navLinks = [
-  { href: "about", label: "About" },
-  { href: "projects", label: "Projects" },
-  { href: "experience", label: "Experience" },
-  { href: "testimonials", label: "Testimonials" },
-];
+{/*const navLinks = [
+  { href: "About", label: "About" },
+  { href: "Projects", label: "Projects" },
+  { href: "Experience", label: "Experience" },
+  { href: "Testimonials", label: "Testimonials" },
+];}*/}
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +40,21 @@ export const Navbar = () => {
         {/* desktop nav */}
         <div className="hidden md:flex items-center gap-1">
           <div className="glass rounded-full px-2 py-1 flex items-center gap-1">
-            {navLinks.map((link, index) => (
+            <ul className="flex items-center gap-1">
+              <a href="#About" className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                About
+              </a>
+              <a href="#Projects" className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                Projects
+              </a>
+              <a href="#Experience" className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                Experience
+              </a>
+              <a href="#Testimonials" className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                Testimonials
+              </a>
+            </ul>
+            {/*{navLinks.map((link, index) => (
               <a
                 href={link.href}
                 key={index}
@@ -48,7 +62,7 @@ export const Navbar = () => {
               >
                 {link.label}
               </a>
-            ))}
+            ))}*/}
           </div>
         </div>
 
