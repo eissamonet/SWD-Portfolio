@@ -233,6 +233,10 @@ export const Contact = () => {
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                 <span className="font-medium">Currently Available for Work</span>
               </div>
+              <p className="text-muted-foreground text-sm">
+                I'm currently open to new opportunities and collaborations.
+                Feel free to reach out if you'd like to work together!
+              </p>
             </div>
           </div>
 
