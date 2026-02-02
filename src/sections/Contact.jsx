@@ -211,9 +211,9 @@ export const Contact = () => {
                   <a
                     key={index}
                     href={item.href}
-                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors"
+                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
                     >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon className="w-6 h-6 text-primary" />
                     </div>
                     <div>
