@@ -9,6 +9,7 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "Tailwind CSS",
   "React",
   "Node.js",
@@ -58,7 +59,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Developer - Frontend
+                Software Engineer
               </span>
             </div>
 
@@ -74,17 +75,15 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Eissa - a software developer with a primary focus in
-                frontend. I build performant web applications that users love.
+                Hi, I'm Eissa - a junior software developer passionate about creating innovative and user-friendly web applications.
               </p>
             </div>
 
             {/* cta's */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300 mt-8">
-              <Button size="lg">
+              <Button size="lg" href="#Contact" onClick={() => document.getElementById("Contact").scrollIntoView({ behavior: "smooth" })}>
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBoarderButton />
             </div>
 
             {/* social links */}
