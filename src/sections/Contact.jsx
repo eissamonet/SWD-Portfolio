@@ -7,8 +7,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "eissamonet@gmail.com",
-    href: "mailto:eissamonet@gmail.com",
+    value: "eissamonet@me.com",
+    href: "mailto:eissamonet@me.com",
   },
   {
     icon: Phone,
@@ -201,7 +201,7 @@ export const Contact = () => {
           </div>
 
           {/* contact info */}
-          <div className="space-y-6 animate-fade-in animation-delay-400">
+          <div id="Contact" className="space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semi-bold mb-6">
                 Contact Information
