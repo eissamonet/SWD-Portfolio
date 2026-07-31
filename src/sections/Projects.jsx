@@ -22,8 +22,8 @@ const projects = [
     description: "A modern, front-end digital agency website built with React JS, Tailwind CSS, and Framer Motion .",
     image: "/projects/project3.png",
     tags: ["React", "Tailwind CSS", "FramerMotion"],
-    link: "https://github.com/eissamonet/digital-agency",
-    github: "https://digital-agency-tan.vercel.app/",
+    link: "https://digital-agency-tan.vercel.app/",
+    github: "https://github.com/eissamonet/digital-agency",
   },
    {
     title: "Morning Cafe",
@@ -89,8 +89,6 @@ export const Projects = () => {
                 <div className="p-6 space-y-4">
                   <div className="flex items-start justify-between">
                     <h3 className="text-xl font-semibold group-hover:text-primary transition-colors ">{projects.title}</h3>
-                    <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1
-                    group-hover:-translate-y-1 transition-all" />
                   </div>
                   <p className="text-muted-foreground text-sm">{projects.description}</p>
                   <div className="flex flex-wrap gap-2">
