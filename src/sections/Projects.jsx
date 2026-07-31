@@ -15,7 +15,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["MongoDB", "Express", "React", "Node.js", "Clerk", "Brevo"],
     link: "#", // Replace with actual link to Vercel deployment
-    github: "#", // Replace with actual link to GitHub repository
+    github: "https://github.com/eissamonet/TripLodge",
   },
    {
     title: "Digital Agency",
