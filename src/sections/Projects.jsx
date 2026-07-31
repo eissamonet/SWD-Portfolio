@@ -22,16 +22,16 @@ const projects = [
     description: "A modern, front-end digital agency website built with React JS, Tailwind CSS, and Framer Motion .",
     image: "/projects/project3.png",
     tags: ["React", "Tailwind CSS", "FramerMotion"],
-    link: "#", // Replace with actual link to Vercel deployment
-    github: "#", // Replace with actual link to GitHub repository
+    link: "https://github.com/eissamonet/digital-agency",
+    github: "https://digital-agency-tan.vercel.app/",
   },
    {
     title: "Morning Cafe",
     description: "A front-end cafe website built with HTML, CSS, and JavaScript.",
     image: "/projects/project4.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "#", // Replace with actual link to Vercel deployment
-    github: "#", // Replace with actual link to GitHub repository
+    link: "https://morning-cafe.vercel.app/#contact",
+    github: "https://github.com/eissamonet/Morning-Cafe",
   }
 ]
 
