@@ -95,10 +95,6 @@ export const Hero = () => {
                   icon: Linkedin,
                   href: "https://www.linkedin.com/in/eissamonet/",
                 },
-                {
-                  icon: Instagram,
-                  href: "https://www.instagram.com/eissa.monet/",
-                },
               ].map((social, index) => (
                 <a
                   key={index}
