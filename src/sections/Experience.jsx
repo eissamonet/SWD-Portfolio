@@ -1,4 +1,13 @@
 const experiences = [
+    {
+    period: "December 2024 - Present",
+    role: "Medical Case Manager",
+    company: "Oscar Health",
+    description:
+      "Collaborated with Project Managers and Senior Medical Director to implement an AI Note Summarization feature, reducing Case Manager workflow by 10%.",
+    technologies: ["AI", "Project Management", "Workflow Optimization"],
+    current: true,
+  },
   {
     period: "December 2024 - September 2025",
     role: "Software Engineer",
