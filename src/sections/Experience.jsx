@@ -4,8 +4,8 @@ const experiences = [
     role: "Software Engineer",
     company: "curaJoy",
     description:
-      "Developing and maintaining web applications using modern frameworks and technologies.",
-    technologies: ["JavaScript", "React", "Node.js", "Docker"],
+      "Built 10+ reusable UI components with React, Next.js, TypeScript, and Tailwind CSS for a family behavioral wellness app.",
+    technologies: ["React", "Node.js", "Next.js", "TypeScript", "Tailwind CSS"],
     current: false,
   },
   {
@@ -13,8 +13,8 @@ const experiences = [
     role: "Junior Developer",
     company: "Reality Labs",
     description:
-      "Assisted in the development of client websites and applications, focusing on front-end development.",
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
+      "Assisted in developing RexX Chat, an AI learning assistant chatbot using React, Node.js, Firebase, and Redux, by implementing frontend features and supporting backend integration.",
+    technologies: ["React", "Node.js", "Firebase", "Redux"],
     current: false,
   },
 ];
