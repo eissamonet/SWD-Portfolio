@@ -4,7 +4,7 @@ const projects = [
   {
     title: "AI Wellness Tracker",
     description: "A full-stack, AI powered food recognition and wellness tracking application built with React, TypeScript, Strapi, SQLite, and Google Gemini API.",
-    image: "/projects/project1.png",
+    image: "/projects/AIWellnessTracker.png",
     tags: ["React", "TypeScript", "Strapi", "SQLite", "Google Gemini API"],
     link: "https://ai-wellness-tracker-kohl.vercel.app/",
     github: "https://github.com/eissamonet/AI-Wellness-Tracker",
@@ -12,7 +12,7 @@ const projects = [
    {
     title: "TripLodge",
     description: "A full-stack hotel booking platform using the MERN stack with Clerk authentication and Brevo email integration.",
-    image: "/projects/project2.png",
+    image: "/projects/TripLodge.png",
     tags: ["MongoDB", "Express", "React", "Node.js", "Clerk", "Brevo"],
     link: "https://triplodge-delta.vercel.app/",
     github: "https://github.com/eissamonet/TripLodge",
@@ -20,7 +20,7 @@ const projects = [
    {
     title: "Digital Agency",
     description: "A modern, front-end digital agency website built with React JS, Tailwind CSS, and Framer Motion .",
-    image: "/projects/project3.png",
+    image: "/projects/DigitalAgency.png",
     tags: ["React", "Tailwind CSS", "FramerMotion"],
     link: "https://digital-agency-tan.vercel.app/",
     github: "https://github.com/eissamonet/digital-agency",
@@ -28,7 +28,7 @@ const projects = [
    {
     title: "Morning Cafe",
     description: "A front-end cafe website built with HTML, CSS, and JavaScript.",
-    image: "/projects/project4.png",
+    image: "/projects/MorningCafe.png",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://morning-cafe.vercel.app/#contact",
     github: "https://github.com/eissamonet/Morning-Cafe",
