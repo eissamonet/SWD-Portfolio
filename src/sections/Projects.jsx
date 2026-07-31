@@ -2,34 +2,34 @@ import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Digital Agency",
-    description: "A modern digital agency website built with React and Tailwind CSS.",
+    title: "AI Wellness Tracker",
+    description: "A full-stack, AI powered food recognition and wellness tracking application built with React, TypeScript, Strapi, SQLite, and Google Gemini API.",
     image: "/projects/project1.png",
-    tags: ["React", "Tailwind CSS", "FramerMotion"],
+    tags: ["React", "TypeScript", "Strapi", "SQLite", "Google Gemini API"],
     link: "#", // Replace with actual link to Vercel deployment
     github: "#", // Replace with actual link to GitHub repository
   },
    {
-    title: "Appointment Scheduler",
-    description: "A modern appointment scheduling application built with React and Tailwind CSS.",
+    title: "TripLodge",
+    description: "A full-stack hotel booking platform using the MERN stack with Clerk authentication and Brevo email integration.",
     image: "/projects/project2.png",
-    tags: ["React", "Tailwind CSS", "FramerMotion"],
+    tags: ["MongoDB", "Express", "React", "Node.js", "Clerk", "Brevo"],
     link: "#", // Replace with actual link to Vercel deployment
     github: "#", // Replace with actual link to GitHub repository
   },
    {
-    title: "Car Rental",
-    description: "A modern car rental website built with React and Tailwind CSS.",
+    title: "Digital Agency",
+    description: "A modern, front-end digital agency website built with React JS, Tailwind CSS, and Framer Motion .",
     image: "/projects/project3.png",
     tags: ["React", "Tailwind CSS", "FramerMotion"],
     link: "#", // Replace with actual link to Vercel deployment
     github: "#", // Replace with actual link to GitHub repository
   },
    {
-    title: "Movie Search",
-    description: "A modern movie search application built with React and Tailwind CSS.",
+    title: "Morning Cafe",
+    description: "A front-end cafe website built with HTML, CSS, and JavaScript.",
     image: "/projects/project4.png",
-    tags: ["React", "Tailwind CSS", "FramerMotion"],
+    tags: ["HTML", "CSS", "JavaScript"],
     link: "#", // Replace with actual link to Vercel deployment
     github: "#", // Replace with actual link to GitHub repository
   }
