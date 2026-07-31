@@ -20,7 +20,7 @@ const experiences = [
   {
     period: "May 2024 - August 2024",
     role: "Junior Developer",
-    company: "Reality Labs",
+    company: "RadicalX AI",
     description:
       "Assisted in developing RexX Chat, an AI learning assistant chatbot using React, Node.js, Firebase, and Redux, by implementing frontend features and supporting backend integration.",
     technologies: ["React", "Node.js", "Firebase", "Redux"],
