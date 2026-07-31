@@ -14,7 +14,7 @@ const projects = [
     description: "A full-stack hotel booking platform using the MERN stack with Clerk authentication and Brevo email integration.",
     image: "/projects/project2.png",
     tags: ["MongoDB", "Express", "React", "Node.js", "Clerk", "Brevo"],
-    link: "#", // Replace with actual link to Vercel deployment
+    link: "https://triplodge-delta.vercel.app/",
     github: "https://github.com/eissamonet/TripLodge",
   },
    {
