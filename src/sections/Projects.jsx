@@ -6,8 +6,8 @@ const projects = [
     description: "A full-stack, AI powered food recognition and wellness tracking application built with React, TypeScript, Strapi, SQLite, and Google Gemini API.",
     image: "/projects/project1.png",
     tags: ["React", "TypeScript", "Strapi", "SQLite", "Google Gemini API"],
-    link: "#", // Replace with actual link to Vercel deployment
-    github: "#", // Replace with actual link to GitHub repository
+    link: "https://ai-wellness-tracker-kohl.vercel.app/",
+    github: "https://github.com/eissamonet/AI-Wellness-Tracker",
   },
    {
     title: "TripLodge",
