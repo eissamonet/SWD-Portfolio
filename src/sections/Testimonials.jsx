@@ -6,7 +6,7 @@ const testimonials = [
     {
         quote: "Working with Eissa was an absolute pleasure. Her attention to detail and problem-solving skills are exceptional.",
         author: "Mariana B",
-        role: "Product Manager",
+        role: "Molex - Project Manager",
         /* image:  insert image */
     },
     {

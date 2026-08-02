@@ -49,7 +49,7 @@ export const About = () => {
                 My journey in software development has equipped me with a diverse skill set, allowing me to adapt to various project requirements and collaborate effectively with cross-functional teams. I believe in continuous learning and staying updated with the latest industry trends to deliver cutting-edge solutions.
               </p>
               <p>
-                In my spare time , I enjoy contributing to open-source projects, exploring new programming languages, and sharing knowledge with the developer community.
+                In my spare time, I enjoy contributing to open-source projects, exploring new programming languages, and sharing knowledge with the developer community.
               </p>
             </div>
 
