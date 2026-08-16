@@ -11,12 +11,6 @@ const contactInfo = [
     href: "mailto:eissamonet@me.com",
   },
   {
-    icon: Phone,
-    label: "Phone",
-    value: "(614) 940-1067",
-    href: "tel:+16149401067",
-  },
-  {
     icon: MapPin,
     label: "Location",
     value: "Chicago, IL",
