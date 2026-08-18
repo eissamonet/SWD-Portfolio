@@ -74,7 +74,7 @@ export const Projects = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60"
                   />
                   {/* overlay links */}
-                  <div className="absolute inset-0 flex items-center justify-center gap-4">
+                  <div className="absolute right-6 bottom-12 flex gap-4">
                     <a href={projects.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                       <ArrowUpRight className="w-5 h-5"/>
                     </a>
