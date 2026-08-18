@@ -75,10 +75,10 @@ export const Projects = () => {
                   />
                   {/* overlay links */}
                   <div className="absolute inset-0 flex items-center justify-center gap-4">
-                    <a href={projects.link} className="p-3 rounded-full glass">
+                    <a href={projects.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                       <ArrowUpRight className="w-5 h-5"/>
                     </a>
-                    <a href={projects.github} className="p-3 rounded-full glass">
+                    <a href={projects.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                       <Github className="w-5 h-5"/>
                     </a>
                   </div>
